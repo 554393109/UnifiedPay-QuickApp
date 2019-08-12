@@ -58,7 +58,7 @@ export default {
           success: function (data) {
 
             fetch.fetch({
-              url: 'http://192.168.1.99:60006/Test/Report',
+              url: 'http://yin554393109.gicp.net/Test/Report',
               header: {
                 'Token': 'ABCDEFG',
                 'Content-Type': 'application/x-www-form-urlencoded'

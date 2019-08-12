@@ -4,7 +4,7 @@
   "versionName": "1.0.0",
   "versionCode": "1",
   "minPlatformVersion": "1020",
-  "icon": "/Common/logo.png",
+  "icon": "/Common/qrpay.png",
   "features": [
     {
       "name": "system.prompt"
@@ -59,10 +59,11 @@
     "pages": {
       "Demo": {
         "titleBarText": "示例页",
-        "menu": false
+        "menu": true
       },
       "DemoDetail": {
-        "titleBarText": "详情页"
+        "titleBarText": "详情页",
+        "menu": true
       },
       "About": {
         "menu": false
